@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Azevedocs Store</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+
+<body>
+      <!-- barra de menu -->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="Principal.html">Azevedocs Store</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="Produtos.html">Produtos</a></li>
+              <li><a href="Compra.html">Comprar</a></li>
+              <li><a href="Quemsomos.html">Quem Somos</a></li>
+            </ul>
+
+            <form class="navbar-form navbar-right" action="">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search" name="search">
+                  <div class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="Cadastro.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+              <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- carrosel -->
+      <div class="container">
+        <h2>USE AGORA O CUPOM: DESCONTO50 </h2>  
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="promo1.png" alt="Los Angeles" style="width:100%;">
+            </div>
+      
+            <div class="item">
+              <img src="promo2.jpg" alt="Chicago" style="width:100%;">
+            </div>
+          
+            <div class="item">
+              <img src="promo3.png" alt="New york" style="width:100%;">
+            </div>
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+        
+      <div class="container-fluid bg-3 text-center">    
+        <h3>OFERTAS</h3><br>
+        <div class="row">
+          <div class="col-sm-3">
+            <p>Bola Nike 2021 - CONMEBOL</p>
+            <img src="bolanike.jpg" class="img-responsive" style="width:100%" alt="Image">
+          </div>
+          <div class="col-sm-3"> 
+            <p>Bola Adidas 2020 - UEFA UCL</p>
+            <img src="bolaadidas.jfif" class="img-responsive" style="width:100%" alt="Image">
+          </div>
+          <div class="col-sm-3"> 
+            <p>Chuteira Society Puma Future Z 4.1</p>
+            <img src="chuteira1.jpg" class="img-responsive" style="width:100%" alt="Image">
+          </div>
+          <div class="col-sm-3">
+            <p>Chuteira Futsal Nike Phantom Academy</p>
+            <img src="chuteira2.jpg" class="img-responsive" style="width:100%" alt="Image">
+          </div>
+        </div>
+      </div><br>
+      
+      <div class="container-fluid bg-3 text-center">    
+        <div class="row">
+          <div class="col-sm-3">
+            <p>Tênis Nike Revolution 5 Masculino</p>
+            <img src="tenis2.jpg" class="img-responsive" style="width:100%" alt="Image">
+          </div>
+          <div class="col-sm-3"> 
+            <p>Tênis Nike Legend Essential 2 Masculino</p>
+            <img src="tenis3.jpg" class="img-responsive" style="width:100%" alt="Image">
+          </div>
+          <div class="col-sm-3"> 
+            <p>Tênis Nike Renew Ride 2 Masculino</p>
+            <img src="tenis1.jfif" class="img-responsive" style="width:100%" alt="Image">
+          </div>
+          <div class="col-sm-3">
+            <p>Camisa Nike Drifit</p>
+            <img src="camisanike.jpg" class="img-responsive" style="width:100%" alt="Image">
+          </div>
+        </div>
+      </div><br><br>
+      
+      <footer class="container-fluid text-center">
+        <p>© 2021 Azevedocs Store.</p> 
+        <p>Todos os direitos reservados. </p>
+        <p>Comércio de Produtos Esportivos Ltda - CNPJ: 59.546.515/0016-10</p>
+        <p>José Semião Rodrigues Agostinho, 1370 - Galpão Unidade 17 - Nível 0, 1 e 2 - CEP 06833-300 - Embu das Artes/SP.</p>
+      </footer>
+
+</body>
+
+</html>

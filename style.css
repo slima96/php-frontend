@@ -1,0 +1,23 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  footer {
+    background-color: #272626;
+    padding: 25px;
+  }
+  footer p{
+     color:rgb(255, 255, 255);           
+  }
+  h2{
+    text-align: center;
+    font-weight: bold;
+  }
+  h3{
+    text-align: center;
+    font-weight: bold;
+  }
+  p{
+    font-size: 14px;
+    font-weight: bold;
+  }
