@@ -7,8 +7,13 @@
 .navbar-inverse{
   border-color: #faec25;
 }
+.navbar-title{
+  color:#d42c2c !important;
+  font-size: 30px;
+}
 a{
   color:black !important;
+  text-decoration: none;
 }
 footer {
     background-color: #d42c2c;
@@ -29,3 +34,6 @@ p{
     font-size: 14px;
     font-weight: bold;
   }
+.margin-10{
+  margin-left: 10px;
+}
