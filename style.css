@@ -1,23 +1,31 @@
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
-  }
-  footer {
-    background-color: #272626;
+    background-color: #faec25;
+    border-color: none;
+}
+.navbar-inverse{
+  border-color: #faec25;
+}
+a{
+  color:black !important;
+}
+footer {
+    background-color: #d42c2c;
     padding: 25px;
   }
-  footer p{
+footer p{
      color:rgb(255, 255, 255);           
   }
-  h2{
+h2{
     text-align: center;
     font-weight: bold;
   }
-  h3{
+h3{
     text-align: center;
     font-weight: bold;
   }
-  p{
+p{
     font-size: 14px;
     font-weight: bold;
   }
